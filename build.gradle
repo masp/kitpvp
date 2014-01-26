@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+    
+    maven {
+        url "http://repo.bukkit.org/content/groups/public/"
+    }
+}
+
+dependencies {
+    compile 'org.bukkit:craftbukkit:1.7.2-R0.2'
+
+    testCompile 'junit:junit:4.11'
+}
+
+jar {
+    from files("res/plugin.yml", "res/kits.yml")
+}
+
+task copyJar(type: Copy, dependsOn: build) {
+    from 'build/libs/kitpvp.jar'
+    into '/home/mark/mineserver/1.6-test/plugins'
+}

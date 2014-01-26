@@ -1,0 +1,5 @@
+test-kit:
+    name: TestKit
+    desc: Test description!
+    icon:
+        type: Apple

@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="masp.test.kitpvp.KitPvPTest" tests="1" failures="0" errors="0" timestamp="2014-01-23T22:06:06" hostname="masp" time="0.001">
+  <properties/>
+  <testcase name="placeholderTest" classname="masp.test.kitpvp.KitPvPTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+name: KitPvP
+description: A kit plugin that provides a unique experience in a variety of PvP scenarios.
+version: 0.1
+author: Denkfaehigkeit
+main: masp.plugins.kitpvp.KitPvP
+commands:
+    kp:
+        description: Used for KitPvP commands
+        usage: /kp [kit]
